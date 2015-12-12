@@ -1,68 +1,71 @@
-{ "content": [ 
-	{
-		"title" : "ShowReel 2014",
-		"description" : "ShowReel 2014",
-		"type" : "bande-démo",
-		"videoId" :"84393923",
-		"home" : true
-	},
-	{
-		"title" : "Quand Je Ne Dors Pas",
-		"description" : "AE",
-		"type" : "chef monteur long-métrage",
-		"videoId" :"141063176",
-		"home" : false
-	},
-	{
-		"title" : "Le Combat Ordinaire",
-		"description" : "AE",
-		"type" : "monteur de bandes annonces",
-		"videoId" :"133535250",
-		"home" : false
-	},
-	{
-		"title" : "CJD - générique & transitions",
-		"type" : "kinetic typography",
-		"videoId" :"99550830",
-		"home" : false
-	},
-	{
-		"title" : "Areva",
-		"type" : "motion",
-		"videoId" :"92740815",
-		"home" : false
-	},
-	{
-		"title" : "Lancement site ESC",
-		"type" : "web motion",
-		"videoId" :"131782991",
-		"home" : false
-	},
-	{
-		"title" : "AAF Spares",
-		"type" : "motion",
-		"videoId" :"93607414",
-		"home" : false
-	},
-	{
-		"title" : "Les César",
-		"description" : "César",
-		"type" : "mashup",
-		"videoId" :"87170597",
-		"home" : false
-	},
-	{
-		"title" : "The Nonsense Express",
-		"description" : "THE NONSENSE EXPRESS",
-		"type" : "chef monteur documentaire",
-		"videoId" :"52000564",
-		"home" : false
-	},
-	{
-		"title" : "Man Made - Clip",
-		"description" : "AE",
-		"type" : "motion",
-		"videoId" :"99650077",
-		"home" : false
-	}
-]}
+{ 
+	"content": [ 
+		{
+			"title" : "ShowReel 2014",
+			"description" : "ShowReel 2014",
+			"type" : "bande-démo",
+			"videoId" :"84393923",
+			"home" : true,
+			"provider" : "vimeo" 
+		},{
+			"title" : "Quand Je Ne Dors Pas",
+			"description" : "AE",
+			"type" : "chef monteur long-métrage",
+			"videoId" :"141063176",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "Le Combat Ordinaire",
+			"description" : "AE",
+			"type" : "monteur de bandes annonces",
+			"videoId" :"133535250",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "CJD - générique & transitions",
+			"type" : "kinetic typography",
+			"videoId" :"99550830",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "Areva",
+			"type" : "motion",
+			"videoId" :"92740815",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "Lancement site ESC",
+			"type" : "web motion",
+			"videoId" :"131782991",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "AAF Spares",
+			"type" : "motion",
+			"videoId" :"93607414",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "Les César",
+			"description" : "César",
+			"type" : "mashup",
+			"videoId" :"87170597",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "The Nonsense Express",
+			"description" : "THE NONSENSE EXPRESS",
+			"type" : "chef monteur documentaire",
+			"videoId" :"52000564",
+			"home" : false,
+			"provider" : "vimeo" 
+		},{
+			"title" : "Man Made - Clip",
+			"description" : "AE",
+			"type" : "motion",
+			"videoId" :"99650077",
+			"home" : false,
+			"provider" : "vimeo" 
+		}
+	]
+}
