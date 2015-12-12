@@ -1,6 +1,14 @@
 { 
 	"content": [ 
+
 		{
+			"title" : "Panique en 1930",
+			"description" : "Panique en 1930",
+			"type" : "J'ai amié",
+			"videoId" :"cn6dCwyqUuA",
+			"home" : false,
+			"provider" : "youtube" 
+		},{
 			"title" : "ShowReel 2014",
 			"description" : "ShowReel 2014",
 			"type" : "bande-démo",
