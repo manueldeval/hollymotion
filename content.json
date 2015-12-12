@@ -1,4 +1,4 @@
-[
+{ "content": [ 
 	{
 		"title" : "ShowReel 2014",
 		"description" : "ShowReel 2014",
@@ -9,7 +9,7 @@
 	{
 		"title" : "Quand Je Ne Dors Pas",
 		"description" : "AE",
-		"type" : "chef monteur long-mÃ©trage",
+		"type" : "chef monteur long-métrage",
 		"videoId" :"141063176",
 		"home" : false
 	},
@@ -65,4 +65,4 @@
 		"videoId" :"99650077",
 		"home" : false
 	}
-]
+]};
