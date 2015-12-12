@@ -1,0 +1,198 @@
+body {
+	font-size: .9em;
+	background-color: #252525;
+	color: #FFF;
+	font-family:sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*
+=======================================
+ LOGO AND NAME ON THE TOP 
+======================================= 
+ */
+head {
+}
+
+.logo {
+	display: inline-block;
+	font-size: 1.5em;
+	text-transform:uppercase;
+	height: 120px;
+	width: 200px;
+}
+
+.project > a {	color:#FFF; text-decoration: none; }
+.project > a:link {color:#FFF;}
+.project > a:visited {color:#FFF;}
+.project > a:hover {color:#AAA;}
+.project > a:active {color:#FFF;}
+
+
+.logo:before {
+	font-size: 4em;
+	content : "[";
+}
+
+.logo:after {
+	font-size: 4em;	
+	content : "]";
+}
+
+.logo > .project {
+	display: inline-block;
+	width: 100px;
+	text-align:center;
+}
+
+.author {
+	font-size: 1.3em;
+	display: inline-block;
+	font-variant: small-caps;
+}
+
+@media screen and (min-width: 900px) {
+	.contacts {
+		display: inline-block;
+		float: right;
+		padding-top: 50px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.contacts {
+		padding-top: 10px;
+	}
+}
+
+
+.contacts > a {	color:#FFF; text-decoration: none; padding:11px }
+.contacts > a:link {color:#FFF;}
+.contacts > a:visited {color:#FFF;}
+.contacts > a:hover {color:#AAA;}
+.contacts > a:active {color:#FFF;}
+
+/*
+=======================================
+Player
+======================================= 
+ */
+.player_container {
+	margin-top: 30px; 
+	margin-bottom: 60px;
+}
+
+
+.player > .title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+	.video_player {
+		width:700px;
+		height:394px
+	}
+	.player {
+		width:700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+	.video_player {
+		width:600px;
+		height:354px
+	}
+	.player {
+		width:600px;
+		margin-right: auto;
+		margin-left: auto;
+	}	
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	.video_player {
+		width:500px;
+		height:300px
+	}
+	.player {
+		width:500px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 600px) {
+	.video_player {
+		width:350px;
+		height:250px
+	}
+	.player {
+		width:350px;
+		margin-right: auto;
+		margin-left: auto;
+	}	
+}
+
+@media screen and (max-width: 450px) {
+	.video_player {
+		width:300px;
+		height:150px
+	}
+	.player {
+		width:300px;
+		margin-right: auto;
+		margin-left: auto;
+	}	
+}
+
+/*
+=======================================
+Thumb
+======================================= 
+ */
+
+.thumbs {
+	text-align: center;
+	width: 100%;
+}
+
+.thumbnail_container {
+	display: inline-block;
+	text-align: center;
+	min-width: 250px;
+	width : 24%;
+	margin-bottom: 20px;
+}
+
+.thumbnail {
+	width: 200px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.thumbnail > .title {
+	margin-top: 5px;
+	text-align: left;
+}
+
+.title > a {	color:#FFF; text-decoration: none;}
+.title > a:link {color:#FFF;}
+.title > a:visited {color:#FFF;}
+.title > a:hover {color:#FFF;text-decoration: underline;}
+.title > a:active {color:#FFF;}
+
+.thumbnail > .type {
+	text-align: left;
+	font-style: italic;
+}
+
+/*
+=======================================
+Footer
+======================================= 
+ */
+footer {
+	border-color: linear-gradient(top, #555555, #111111);
+	font-size: .9em;
+	margin-top: 60px;
+}
