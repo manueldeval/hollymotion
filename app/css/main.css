@@ -170,6 +170,10 @@ Thumb
 	margin: 0 auto;
 }
 
+.thumbnail > img {
+	width: 200px;
+}
+
 .thumbnail > .title {
 	margin-top: 5px;
 	text-align: left;
