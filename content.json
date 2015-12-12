@@ -5,14 +5,14 @@
 			"description" : "ShowReel 2014",
 			"type" : "bande-démo",
 			"videoId" :"84393923",
-			"home" : true,
+			"home" : false,
 			"provider" : "vimeo" 
 		},{
 			"title" : "Quand Je Ne Dors Pas",
 			"description" : "AE",
 			"type" : "chef monteur long-métrage",
 			"videoId" :"141063176",
-			"home" : false,
+			"home" : true,
 			"provider" : "vimeo" 
 		},{
 			"title" : "Le Combat Ordinaire",
